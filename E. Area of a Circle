@@ -1,0 +1,15 @@
+// Online C++ compiler to run C++ program online
+#include <iostream>
+#include <iomanip>
+using namespace std;
+int main() {
+float r ,R ,area ,bay=3.141592653 ;
+cin>>r;
+R=r*r ;
+
+area = R*bay ;
+    cout << fixed << setprecision(9);
+
+    cout<<area<<endl ;
+    return 0;
+}
