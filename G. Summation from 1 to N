@@ -1,0 +1,18 @@
+// Online C++ compiler to run C++ program online
+#include <iostream>
+ 
+using namespace std;
+int main() {
+    // Write C++ code here
+    long long int number, summation = 0;
+    cin>>number;
+    // for(long long int i = 1 ; i <= number ; i++){
+    //     summation+=i;
+    // }
+    
+    summation = (number * (number+1))/2;
+    
+    cout << summation;
+    
+    return 0;
+}
