@@ -1,0 +1,21 @@
+// Online C++ compiler to run C++ program online
+#include <iostream>
+ 
+using namespace std;
+int main() {
+    
+    int num,year ;
+    cin>>num;
+    
+    year=num/365;
+    
+    int days_after_yaer=num-(365*year);
+    int month=days_after_yaer/30 ;
+    int day=days_after_yaer-(30*month) ;
+    
+    cout << year << " years" << endl;
+    cout<< month << " months" << endl;
+    cout<<day << " days" << endl;
+    
+    return 0;
+}
