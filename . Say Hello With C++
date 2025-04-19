@@ -1,0 +1,10 @@
+#include <iostream>
+using namespace std ;
+int main()
+{
+    string programmer ;
+    cin>>programmer;
+    cout<<"Hello, "<< programmer;
+ 
+    return 0;
+}
