@@ -1,0 +1,13 @@
+#include <iostream>
+using namespace std ;
+ 
+int main()
+{
+    int x,y;
+    char z;
+    cin>>x>>z>>y ;
+    if((x-y)>=0) cout<<"Right"<<endl;
+    else cout<<"Wrong"<<endl;
+ 
+    return 0;
+}
